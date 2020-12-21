@@ -6,5 +6,6 @@ export interface VDom {
   props?: Object;
   style?: CSSProperties;
   events?: HTMLAttributes<HTMLElement>;
+  // text
   label?:string;
 }
